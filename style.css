@@ -1,0 +1,70 @@
+body{
+  display:flex;
+  text-align:center;
+  flex-direction:column;
+  background:pink;
+  font-size: 30px;
+}
+
+h4{
+margin-top: 10px;
+}
+/* div {
+  animation-timing-function: linear;
+  animation-direction: alternate;
+} */
+
+.p1{
+  display:flex;
+  text-align:center;
+  justify-content: center;
+
+}
+
+.p2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+.p3{
+  font-family: 'Dancing Script', cursive;
+}
+
+body {
+
+  overflow: hidden;
+
+  animation: change 5s infinite;
+
+}
+
+
+
+@keyframes change {
+
+  0% {
+
+    background-color: #pink;
+
+  }
+
+
+
+  50% {
+
+    background-color: #B19CD9;
+
+  }
+
+
+
+  100% {
+
+    background-color: #pink;
+
+  }
+
+}
